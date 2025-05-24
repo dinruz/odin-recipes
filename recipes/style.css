@@ -37,7 +37,7 @@ body{
     display:block;
     border: 2px solid black;
     height:fit-content;
-    width: 1000px;
+    width: 950px;
     margin:40px;
     padding:40px 50px; 
    }
@@ -77,11 +77,23 @@ body{
     color:rgb(240, 155, 124);
    }
 
-.recipes{
-    display:block;
-    width:fit-content;
-    padding:50px;
+.odin{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(236, 220, 204);
+    border:3px solid rgb(160, 131, 97);
+    width: 400px;
     margin:50px auto;
-    border:3px solid rgb(240, 194, 133);
-    text-align:left;
+    align-items:center;
+   }
+
+.odin .recipes{
+    flex:1;
+    padding: 15px 10px;
+    margin: 15px;
+    width:250px;
+    border:2px groove rgb(209, 150, 39);
+    text-align:center;
+
+
 }
