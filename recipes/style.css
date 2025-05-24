@@ -1,4 +1,10 @@
-   .intro{
+body{
+    background-color: wheat;
+}
+
+
+
+.intro{
     display:block;
     box-sizing:border-box;
     height:fit-content;
@@ -70,3 +76,12 @@
    h1.las{
     color:rgb(240, 155, 124);
    }
+
+.recipes{
+    display:block;
+    width:fit-content;
+    padding:50px;
+    margin:50px auto;
+    border:3px solid rgb(240, 194, 133);
+    text-align:left;
+}
